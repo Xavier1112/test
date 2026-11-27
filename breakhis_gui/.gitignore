@@ -1,0 +1,21 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 虚拟环境
+.venv/
+venv/
+
+# 模型文件和数据集体积大，不上传到 GitHub
+models/
+data/
+*.pth
+*.pt
+*.joblib
+*.pkl
+
+# 编辑器和系统生成的文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

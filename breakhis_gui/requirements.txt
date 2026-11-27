@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+# 上面这行让 pip 在中文 Windows 上也按 UTF-8 读取本文件，不要删除。
+
+# 当前版本（占位模型）只需要 Pillow
+pillow>=9.0
+
+# Tkinter 随 python.org 的 Windows 和 macOS 安装包自带。
+# Linux 需要另外安装：sudo apt install python3-tk
+
+# 接入真实模型后，在这里加上模型需要的库，
+# 例如 torch 和 torchvision，或 scikit-learn 和 joblib。
